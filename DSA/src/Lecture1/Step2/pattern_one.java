@@ -1,10 +1,7 @@
 package Lecture1.Step2;
 
-public class pattern_one {
-    public static void main(String[] args) {
-        nForest(5);
-    }
-    public static void nForest(int n) {
+public class        pattern_one {
+    public static void pattern1(int n) {
         for(int i=0;i<n;i++)
         {
 
@@ -17,9 +14,9 @@ public class pattern_one {
 
         }
     }
+
+    public static void main(String[] args) {
+        pattern1(5);
+    }
 }
-//        * * * * *
-//        * * * * *
-//        * * * * *
-//        * * * * *
-//        * * * * *
+
