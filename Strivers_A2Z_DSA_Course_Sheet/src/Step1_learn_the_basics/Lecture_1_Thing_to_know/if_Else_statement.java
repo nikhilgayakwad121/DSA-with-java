@@ -6,7 +6,7 @@ public class if_Else_statement {
     String strivers = "https://takeuforward.org/if-else/if-else-statements/";
 
     public static void main(String[] args) {
-        System.out.println("Enter your  marks");
+      System.out.println("Enter your  marks");
       Scanner  sc = new Scanner(System.in);
       int marks = sc.nextInt();
 

@@ -40,7 +40,7 @@ public class dataTypes {
     System.out.println("String value "+ stringvalue);
 
     System.out.println("Enter char value");
-    char charvalue = stringvalue.charAt(0);
+    char charvalue = sc.next().charAt(0);
     System.out.println("char value "+ charvalue);
 
     }
