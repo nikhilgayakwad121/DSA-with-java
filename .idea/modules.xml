@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strivers_A2Z_DSA_Course_Sheet/DSA.iml" filepath="$PROJECT_DIR$/Strivers_A2Z_DSA_Course_Sheet/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA_Practice.iml" filepath="$PROJECT_DIR$/.idea/DSA_Practice.iml" />
     </modules>
   </component>
