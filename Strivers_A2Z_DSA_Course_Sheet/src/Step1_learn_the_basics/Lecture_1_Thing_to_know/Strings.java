@@ -1,7 +1,7 @@
 package Step1_learn_the_basics.Lecture_1_Thing_to_know;
 
 public class Strings {
-
+    String strivers= "No article ";
     public static void main(String[] args) {
 
         //String literal
