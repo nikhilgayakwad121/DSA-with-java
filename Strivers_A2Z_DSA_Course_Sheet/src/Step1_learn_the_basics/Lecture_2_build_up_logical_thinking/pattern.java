@@ -83,6 +83,43 @@ public class pattern {
             System.out.println();
         }
     }
+    static void pattern8(int n) {
+        // This is the outer loop which will loop for the rows.
+        for (int i = 0; i < n; i++)
+        {
+            // For printing the spaces before stars in each row
+            for (int j =0; j<i; j++)
+            {
+                System.out.print(" ");
+            }
+
+            // For printing the stars in each row
+            for(int j=0;j< 2*n -(2*i +1);j++){
+
+                System.out.print("*");
+            }
+
+            // For printing the spaces after the stars in each row
+            for (int j =0; j<i; j++)
+            {
+                System.out.print(" ");
+            }
+
+
+            // As soon as the stars for each iteration are printed, we move to the
+            // next row and give a line break otherwise all stars
+            // would get printed in 1 line.
+            System.out.println();
+        }
+    }
+    static void pattern(int n){
+        //star pyramid
+        for(int i = 0 ; i < n ;i++){
+            for(int i= 0; i< )
+        }
+    }
+
+
 
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
@@ -93,7 +130,7 @@ public class pattern {
 //        Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
 //        We print the ‘*’ inside the inner loop.
 //        Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
-        pattern7(n);
+        pattern8(n);
 
     }
 }
