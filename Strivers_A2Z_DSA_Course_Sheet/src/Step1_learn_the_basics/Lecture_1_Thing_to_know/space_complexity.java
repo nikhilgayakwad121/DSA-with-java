@@ -10,7 +10,7 @@ public static void main(String[] args) {
     int a  =1; //input space
     int b  =2; //input space
 
-    int c = a+b ;
+    int c = a+b ; //auxiliary space
 
 //    The variables a and b are used to store the inputs but c refers to the space we are using to solve the problem and c is the auxiliary space. Here the space complexity will be O(3).
 //    Similarly, if we use an array of size n, the space complexity will be O(N)
