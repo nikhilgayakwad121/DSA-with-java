@@ -1,11 +1,12 @@
-# Default ignored files
-.idea/codeStyles
+# Ignore specific IntelliJ IDEA project files
+.idea/codeStyles/
 .idea/DSA_Practice.iml
 .idea/misc.xml
 .idea/modules.xml
 .idea/uiDesigner.xml
 .idea/vcs.xml
 
-out/production
+# Ignore compiled output directories
+out/production/
 
-.gitignore
+# Don't ignore the .gitignore file itself
