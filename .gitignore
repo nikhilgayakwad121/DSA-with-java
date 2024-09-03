@@ -7,6 +7,7 @@
 .idea/vcs.xml
 .idea/workspace.xml
 
+
 # Ignore compiled output directories
 out/production/
 
