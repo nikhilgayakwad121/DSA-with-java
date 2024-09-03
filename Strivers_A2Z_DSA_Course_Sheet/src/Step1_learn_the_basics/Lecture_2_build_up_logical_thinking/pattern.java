@@ -112,16 +112,73 @@ public class pattern {
             System.out.println();
         }
     }
-    static void pattern(int n){
-        //star pyramid
-        for(int i = 0 ; i < n ;i++){
-            for(int i= 0; i< )
+    static void pattern9(int n){
+        //erect pyramid
+        for(int i = 0 ; i < n ;i++) {
+
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+
+            for(int j= 0; j< 2* i +1 ;j++){
+                System.out.print("*");
+            }
+            for(int j=0 ; j< n-i-1;j++){
+                System.out.print(" ");
+            }
+
+            System.out.println();
         }
+
+        //inverted pyramid
+        for(int i =0 ;i< n;i++){
+
+            for(int j=0;j< i;j++){
+                System.out.print(" ");
+            }
+            for(int j=0;j< n*2 -i*2 -1 ;j++){
+                System.out.print("*");
+            }
+            for(int j=0;j< i;j++){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern10(int n) {
+        // Outer loop for number of rows.
+        for(int i=1;i<=2*n-1;i++){
+
+            // stars would be equal to the row no. uptill first half
+            int stars = i;
+
+            // for the second half of the rotated triangle.
+            if(i>n) {
+                stars = 2 * n - i;
+            }
+
+            // for printing the stars in each row.
+            for(int j=1;j<=stars;j++){
+                System.out.print("*");
+            }
+
+            // As soon as the stars for each iteration are printed, we move to the
+            // next row and give a line break otherwise all stars
+            // would get printed in 1 line.
+            System.out.println();
+        }
+    }
+    static void pattern11(int n){
+
+
     }
 
 
 
+
+
     public static void main(String[] args) {
+        System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
 //        There are 4 general rules for solving a pattern-based question:-
@@ -130,7 +187,7 @@ public class pattern {
 //        Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
 //        We print the ‘*’ inside the inner loop.
 //        Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
-        pattern8(n);
+         pattern10(n);
 
     }
 }
