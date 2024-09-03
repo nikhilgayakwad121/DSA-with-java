@@ -1,3 +1,11 @@
 # Default ignored files
-.idea/
+.idea/codeStyles
+.idea/DSA_Practice.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
 
+out/production
+
+.gitignore
