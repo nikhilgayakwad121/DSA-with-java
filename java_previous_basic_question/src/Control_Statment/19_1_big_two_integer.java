@@ -1,7 +1,7 @@
 package Control_Statment;
 
 import java.util.Scanner;
-class MainBigtwoint{
+class MainBigint {
     public static void main(String [] args)
     {
         Scanner sc = new Scanner(System.in);
