@@ -169,9 +169,25 @@ public class pattern {
         }
     }
     static void pattern11(int n){
+        int start = 1;
 
+        for(int i =0; i< n; i++){
+            if(i%2==0)
+                start =1;
+            else
+                start =0;
+
+            for (int j =0;j<=i ;j++){
+                System.out.print(start + " ");
+                start = 1 - start;
+            }
+
+
+            System.out.println();
+        }
 
     }
+
 
 
 
@@ -187,7 +203,7 @@ public class pattern {
 //        Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
 //        We print the ‘*’ inside the inner loop.
 //        Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
-         pattern10(n);
+         pattern11(n);
 
     }
 }
