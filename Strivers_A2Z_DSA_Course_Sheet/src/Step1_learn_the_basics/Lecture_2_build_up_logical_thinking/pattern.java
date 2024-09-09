@@ -210,9 +210,20 @@ public class pattern {
 
     }
 
+    static void  pattern13(int n){
+        int temp = 1;
+        for(int i= 0;i<n;i++){
+            for(int j = 0 ;j <=i ;j++){
+                System.out.print(temp +" ");
+                temp++;
+            }
+            System.out.println();
+        }
+    }
 
-
-
+    static void pattern14(int n){
+        for(int i =0 ; i< )
+    }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
@@ -223,7 +234,7 @@ public class pattern {
 //        Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
 //        We print the ‘*’ inside the inner loop.
 //        Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
-         pattern12(n);
+         pattern14(n);
 
     }
 }
