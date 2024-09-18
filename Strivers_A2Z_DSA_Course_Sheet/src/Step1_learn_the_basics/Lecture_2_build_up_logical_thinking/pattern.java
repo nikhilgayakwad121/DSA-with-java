@@ -3,7 +3,7 @@ package Step1_learn_the_basics.Lecture_2_build_up_logical_thinking;
 import java.util.Scanner;
 
 public class pattern {
-    static void  pattern1(int n){
+    static void pattern1(int n){
         for(int i = 0 ; i < n ; i++ ){
             for(int j = 0; j < n ; j++){
                 System.out.print("* ");
@@ -209,8 +209,7 @@ public class pattern {
         }
 
     }
-
-    static void  pattern13(int n){
+    static void pattern13(int n){
         int temp = 1;
         for(int i= 0;i<n;i++){
             for(int j = 0 ;j <=i ;j++){
@@ -222,12 +221,13 @@ public class pattern {
     }
 
     static void pattern14(int n){
-        for(int i =0 ; i< )
+
     }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
+
 //        There are 4 general rules for solving a pattern-based question:-
 //
 //        We always use nested loops for printing the patterns. For the outer loop, we count the number of lines/rows and loop for them.
