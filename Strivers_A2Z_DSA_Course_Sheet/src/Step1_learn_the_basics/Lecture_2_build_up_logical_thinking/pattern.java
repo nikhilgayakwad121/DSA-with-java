@@ -219,10 +219,47 @@ public class pattern {
             System.out.println();
         }
     }
-
-    static void pattern14(int n){
-
+    static void pattern14(int n ){
+        for(int i = 0; i< n ;i++){
+            for(char ch  = 'A'; ch <='A'+ i ;ch++){
+                System.out.print(ch+" ");
+            }
+            System.out.println();
+        }
     }
+    static void pattern15(int n){
+        for(int i=0; i < n ;i++){
+            for(char ch ='A'; ch <= 'A'+ n -i -1 ; ch ++){
+                System.out.print(ch +" ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern16(int n){
+        for(int i = 0 ; i < n; i++){
+            for( char ch = 'A' ; ch <= 'A' + i ; ch++ ){
+                System.out.print( (char)('A' + i)+" ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern17(int n){
+        for(int i = 0 ; i < n ; i ++)
+        {
+            for(int j = 0 ; j < n - i -1 ; j ++)
+            {
+                System.out.print(" ");
+            }
+            for(char ch = 'A' ; ch <= 'A' +  i   ; ch++ )
+            {
+                System.out.print(ch);
+            }
+            System.out.println();
+
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
@@ -230,11 +267,18 @@ public class pattern {
 
 //        There are 4 general rules for solving a pattern-based question:-
 //
-//        We always use nested loops for printing the patterns. For the outer loop, we count the number of lines/rows and loop for them.
-//        Next, for the inner loop, we focus on the number of columns and somehow connect them to the rows by forming a logic such that for each row we get the required number of columns to be printed.
+//        We always use nested loops for printing the patterns.
+//        For the outer loop, we count the number of lines/rows and loop for them.
+//        Next, for the inner loop, we focus on the number of columns and somehow
+//        connect them to the rows by forming a logic such that for each row we
+//        get the required number of columns to be printed.
+
 //        We print the ‘*’ inside the inner loop.
-//        Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
-         pattern14(n);
+
+//        Observe symmetry in the pattern or check if a pattern is a combination
+//        of two or more similar patterns.
+
+         pattern17(n);
 
     }
 }
