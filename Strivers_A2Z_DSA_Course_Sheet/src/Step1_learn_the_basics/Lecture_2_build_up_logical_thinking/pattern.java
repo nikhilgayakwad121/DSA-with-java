@@ -251,19 +251,48 @@ public class pattern {
             {
                 System.out.print(" ");
             }
-            for(char ch = 'A' ; ch <= 'A' +  i   ; ch++ )
-            {
+            char ch = 'A';
+            int breakpoint = (2* i +1)/2;
+            for(int j=1 ; j <= 2 * i + 1 ; j++ ){
+
                 System.out.print(ch);
+
+                if(j <= breakpoint)
+                    ch++;
+
+                else
+                    ch --;
+
             }
+            for(int j=0 ; j < n-i-1 ;j++){
+                System.out.print(" ");
+            }
+
+
             System.out.println();
 
         }
     }
 
+    static void pattern18(int N){
+        for(int i = 0 ; i < N ;i++)
+        {
+
+            for(char ch =(char)(int)('A'+N-1-i);ch<=(char)(int)('A'+N-1);ch++)
+            {
+                System.out.print(ch + " ");
+            }
+
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
+         pattern18(n);
+    }
+}
 
 //        There are 4 general rules for solving a pattern-based question:-
 //
@@ -277,8 +306,3 @@ public class pattern {
 
 //        Observe symmetry in the pattern or check if a pattern is a combination
 //        of two or more similar patterns.
-
-         pattern17(n);
-
-    }
-}
