@@ -381,13 +381,43 @@ public class pattern {
         }
     }
     static void pattern21(int n){
+        for(int i= 0 ; i< n ; i++){
+            for ( int j= 0 ; j< n ;j++){
+                if(i==0|| j==0 || i==n-1 || j==n-1 )
+                {
+                    System.out.print("*");
+                }
+                else
+                    System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern22(int n){
+        for(int i =0; i< 2* n-1 ; i++)
+        {
+            for (int j = 0; j< 2* n-1 ; j++)
+            {
+                //initialising  the top , bottom , left and right indices of a cell
+
+                int top = i;
+                int bottom = j;
+                int right = (2*n-2) - j;
+                int left = (2* n -2) - i;
+                // Min of 4 directions and then we subtract from n
+                // because previously we would get a pattern whose border
+                // has 0's, but we want with border N's and then decrease inside.
+                System.out.print(n- Math.min(Math.min(top,bottom), Math.min(left,right)) + " ");
+            }
+            System.out.println();
+        }
 
     }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-         pattern20(n);
+         pattern22(n);
 
 //        There are 4 general rules for solving a pattern-based question:-
 //
