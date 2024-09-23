@@ -149,7 +149,7 @@ public class pattern {
         // Outer loop for number of rows.
         for(int i=1;i<=2*n-1;i++){
 
-            // stars would be equal to the row no. uptill first half
+            // stars would be equal to the row no. up till first half
             int stars = i;
 
             // for the second half of the rotated triangle.
@@ -243,7 +243,6 @@ public class pattern {
             System.out.println();
         }
     }
-
     static void pattern17(int n){
         for(int i = 0 ; i < n ; i ++)
         {
@@ -273,7 +272,6 @@ public class pattern {
 
         }
     }
-
     static void pattern18(int N){
         for(int i = 0 ; i < N ;i++)
         {
@@ -286,34 +284,110 @@ public class pattern {
             System.out.println();
         }
     }
+    static void pattern19(int N) {
+        // for the upper half of the pattern.
 
-    static void pattern19(int n){
+        // initial spaces.
+        int iniS = 0;
+        for(int i=0;i< N;i++){
 
-        //for the first half of the pattern
-
-        //initial space
-        int iniS= 0;
-
-        for(int i=0 ; i < n ; i++){
-
-            for(int j=1; j<=n-i ; j++){
+            //for printing the stars in the row.
+            for(int j=1;j<=N-i;j++){
                 System.out.print("*");
             }
-            for(int j=0;j < iniS; j++){
+
+            //for printing the spaces in the row.
+            for(int j=0;j<iniS;j++){
                 System.out.print(" ");
             }
-            for(int j =0;j<= n-i ; j++){
-                System.out.println("*");
+
+            //for printing the stars in the row.
+            for(int j=1;j<=N-i;j++){
+                System.out.print("*");
             }
+
+            // The spaces increase by 2 every time we hit a new row.
+            iniS+=2;
+
+            // As soon as the letters for each iteration are printed, we move to the
+            // next row and give a line break otherwise all letters
+            // would get printed in 1 line.
+            System.out.println();
         }
+
+        // for lower half of the pattern
+
+        // initial spaces.
+        iniS = 2*N -2;
+        for(int i=1;i<=N;i++){
+
+            //for printing the stars in the row.
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+
+            //for printing the spaces in the row.
+            for(int j=0;j<iniS;j++){
+                System.out.print(" ");
+            }
+
+            //for printing the stars in the row.
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+
+            // The spaces decrease by 2 every time we hit a new row.
+            iniS-=2;
+
+            // As soon as the letters for each iteration are printed, we move to the
+            // next row and give a line break otherwise all letters
+            // would get printed in 1 line.
+            System.out.println();
+        }
+    }
+    static void pattern20(int n){
+        //initializing the spaces
+        int spaces = n*2 -2;
+
+        //outer loop
+        for(int i =1; i<=n*2-1;i++){
+
+            //stars for 1st half
+            int stars = i;
+
+            //stars for 2nd half
+            if(i>n)
+                stars = 2*n - i;
+
+            //for printing the stars
+            for(int j =1;j<=stars ;j++){
+                System.out.print("*");
+            }
+            //spaces
+            for(int j =1 ; j<= spaces ;j++){
+                System.out.print(" ");
+            }
+
+            //stars
+            for(int j= 1 ; j<= stars ; j++){
+                System.out.print("*");
+            }
+
+            System.out.println();
+            if(i<n)
+                spaces -=2;
+            else
+                spaces +=2;
+        }
+    }
+    static void pattern21(int n){
+
     }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-         pattern18(n);
-    }
-}
+         pattern20(n);
 
 //        There are 4 general rules for solving a pattern-based question:-
 //
@@ -327,3 +401,6 @@ public class pattern {
 
 //        Observe symmetry in the pattern or check if a pattern is a combination
 //        of two or more similar patterns.
+    }
+}
+
