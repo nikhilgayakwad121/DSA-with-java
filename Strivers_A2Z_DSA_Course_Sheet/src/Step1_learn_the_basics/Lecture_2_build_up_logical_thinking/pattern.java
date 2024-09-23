@@ -286,6 +286,27 @@ public class pattern {
             System.out.println();
         }
     }
+
+    static void pattern19(int n){
+
+        //for the first half of the pattern
+
+        //initial space
+        int iniS= 0;
+
+        for(int i=0 ; i < n ; i++){
+
+            for(int j=1; j<=n-i ; j++){
+                System.out.print("*");
+            }
+            for(int j=0;j < iniS; j++){
+                System.out.print(" ");
+            }
+            for(int j =0;j<= n-i ; j++){
+                System.out.println("*");
+            }
+        }
+    }
     public static void main(String[] args) {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
