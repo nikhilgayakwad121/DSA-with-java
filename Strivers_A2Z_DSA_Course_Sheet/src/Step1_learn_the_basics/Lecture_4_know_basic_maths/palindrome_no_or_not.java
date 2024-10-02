@@ -6,7 +6,6 @@ public class palindrome_no_or_not {
         int revnum =0;
         while(n>0){
             int ld =n%10;
-
             revnum = (revnum * 10 )+ ld;
             n=n/10;
         }
@@ -14,8 +13,6 @@ public class palindrome_no_or_not {
             return "Palindrome Number";
         else
             return "Not Palindrome";
-
-
     }
 
     public static void main(String[] args) {
