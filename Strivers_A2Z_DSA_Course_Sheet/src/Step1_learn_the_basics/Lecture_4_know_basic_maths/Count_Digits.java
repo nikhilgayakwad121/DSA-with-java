@@ -24,7 +24,7 @@ public class Count_Digits {
 
 
 
-class countDigits {
+class optimal_countDigits {
     // Calculate the count of digits in 'n'
     // using logarithmic operation log10(n) + 1.
     static int countDigits(int n) {
