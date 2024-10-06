@@ -1,5 +1,3 @@
-package Step1_learn_the_basics.Lecture_1_Thing_to_know;
-
 import java.util.Scanner;
 
 public class Arrays {

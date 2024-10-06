@@ -1,4 +1,3 @@
-package Step1_learn_the_basics.Lecture_1_Thing_to_know;
 //import Statement for Taking User Input Using BufferedReader.
 import java.io.BufferedReader;
 import java.io.IOException;

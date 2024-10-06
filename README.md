@@ -18,3 +18,24 @@ To get started with this repository, clone it to your local machine:
 
 ```bash
 git clone https://github.com/your-username/data-structure-algorithm-practice.git
+
+
+
+# Java programming practice from basic to advance
+
+Method 1:
+javac filename.java
+
+java classname
+
+// We will get Output
+
+
+Method 2:
+java filename.java
+
+// We will get Output 
+
+ 
+
+
