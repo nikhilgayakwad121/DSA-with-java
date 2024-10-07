@@ -1,4 +1,4 @@
-package Control_Statment;// print that integer is a special two digit.
+// print that integer is a special two digit.
 import java.util.Scanner;
 class mainSpecialno{
     public static void main(String[]args){
