@@ -417,7 +417,7 @@ public class pattern {
         System.out.println(" Enter the n value");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-         pattern22(n);
+         pattern12(n);
 
 //        There are 4 general rules for solving a pattern-based question:-
 //

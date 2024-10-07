@@ -1,5 +1,4 @@
 //WAJP to read student mark of a student and print the student is either pass or fail
-package Control_Statment;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
