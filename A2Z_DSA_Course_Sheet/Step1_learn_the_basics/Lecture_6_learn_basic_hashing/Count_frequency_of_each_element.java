@@ -3,7 +3,7 @@ package Step1_learn_the_basics.Lecture_6_learn_basic_hashing;
 import java.util.HashMap;
 import java.util.Map;
 
-class Count_frequency_of_each_element_using_for_loop {
+class Using_for_loop {
     public static void main(String args[]){
 
         int arr[] ={10,5,10,15,10,5};
@@ -36,7 +36,7 @@ class Count_frequency_of_each_element_using_for_loop {
 
 
 
-class Count_frequency_of_each_element_using_for_map {
+class using_map {
     public static void main(String args[]){
 
         int arr[] = {10,5,10,15,10,5};
