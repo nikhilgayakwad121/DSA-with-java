@@ -1,5 +1,3 @@
-package Array_ArrayList;
-
 public class max_value {
 
     public static void main(String[] args) {
