@@ -1,6 +1,6 @@
 //Read three integer value from the user and print the biggest one.
 import java.util.Scanner;
-class MainBiggestbetweenthree {
+class MainBiggest3 {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter three integer");

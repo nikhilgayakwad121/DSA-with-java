@@ -1,7 +1,7 @@
 //calculate area of a circle and circumference of a circle
 
 import java.util.Scanner;
-class MainCircle{
+class Circle{
     public static void main(String[]args){
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the radius of a circle");

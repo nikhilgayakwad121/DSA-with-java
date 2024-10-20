@@ -1,6 +1,6 @@
 // print that integer is a special two digit.
 import java.util.Scanner;
-class mainSpecialno{
+public class MainSpecialno_18{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the integer number");

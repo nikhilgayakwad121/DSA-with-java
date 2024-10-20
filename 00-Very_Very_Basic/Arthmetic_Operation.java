@@ -1,7 +1,7 @@
 // perform all the arithmetic operation and display the result.
 
 import java.util.Scanner;
-class ArithmeticOperation{
+class Arthmetic_Operation{
     public static void main(String args[]){
       Scanner sc= new Scanner(System.in);
       System.out.println("Enter the first integer number ");

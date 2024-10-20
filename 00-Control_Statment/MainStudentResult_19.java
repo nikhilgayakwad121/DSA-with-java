@@ -3,7 +3,7 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class MainStudentResult {
+class MainStudentResult_19 {
     public static void main(String[] args) {
         System.out.println(" Enter the marks of all the subject");
         Scanner sc = new Scanner(System.in);

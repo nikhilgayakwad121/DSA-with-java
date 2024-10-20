@@ -1,6 +1,6 @@
 //calculate the area of rectangle and perimeter of rectangle
 import java.util.Scanner;
-class  MainRectangle{
+class  MainRectange{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the length and breadth of the rectangle");
