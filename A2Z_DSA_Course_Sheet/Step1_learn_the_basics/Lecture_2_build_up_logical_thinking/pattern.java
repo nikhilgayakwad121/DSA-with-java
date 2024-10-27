@@ -2,7 +2,7 @@ package Step1_learn_the_basics.Lecture_2_build_up_logical_thinking;
 
 import java.util.Scanner;
 
-public class pattern {
+class pattern {
     static void pattern1(int n){
         for(int i = 0 ; i < n ; i++ ){
             for(int j = 0; j < n ; j++){
