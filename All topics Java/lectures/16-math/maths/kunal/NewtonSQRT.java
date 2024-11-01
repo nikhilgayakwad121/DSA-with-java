@@ -1,4 +1,3 @@
-package com.kunal.maths;
 
 public class NewtonSQRT {
     public static void main(String[] args) {
