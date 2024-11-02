@@ -1,6 +1,6 @@
 public class Nto1 {
     public static void main(String[] args) {
-        funBoth(5);
+        concept (5);
     }
 
     // concept
@@ -9,8 +9,8 @@ public class Nto1 {
             return;
         }
         System.out.println(n);
-//        concept(n--);
-        concept(--n);
+//        concept(n--);  // it will always pass n value then subtract
+          concept(--n);    //  it will reduce the value then pass
 //        n-- vs --n
     }
 
