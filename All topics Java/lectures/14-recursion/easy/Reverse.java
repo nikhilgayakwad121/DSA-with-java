@@ -1,5 +1,4 @@
 
-
 public class Reverse {
     static int sum = 0;
     static void rev1(int n) {
