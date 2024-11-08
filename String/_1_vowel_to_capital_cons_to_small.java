@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class vowel_to_capital_cons_to_small {
+public class _1_vowel_to_capital_cons_to_small {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
