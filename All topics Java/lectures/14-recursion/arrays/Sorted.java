@@ -1,7 +1,7 @@
-package arrays;
+
 
 public class Sorted {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5, 16, 8};
         System.out.println(sorted(arr, 0));
     }

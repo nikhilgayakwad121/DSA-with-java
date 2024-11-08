@@ -75,7 +75,7 @@ public class Find {
 
         ArrayList<Integer> list = new ArrayList<>();
 
-        if (index == arr.length) {
+        if (index == arr.length ) {
             return list;
         }
 
