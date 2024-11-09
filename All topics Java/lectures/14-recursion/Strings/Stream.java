@@ -2,7 +2,10 @@ package Strings;
 
 public class Stream {
     public static void main(String[] args) {
-        System.out.println(skipAppNotApple("bacapplcdah"));
+        skip("","asdhjfdd");
+
+//       System.out.println(skipAppNotApple("bacapplcdah"));
+
     }
 
     static void skip(String p, String up) {
