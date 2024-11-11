@@ -2,12 +2,15 @@ package Strings;
 
 import java.util.ArrayList;
 
-public class SubSeq {
+public class  SubSeq {
     public static void main(String[] args) {
-//        subseqAscii("", "abc");
-        System.out.println(subseqAsciiRet("", "abc"));
+//        subseq("", "abc");
+         System.out.println(subseqAsciiRet("", "abc"));
+
     }
 
+
+    // Type 1
     static void subseq(String p, String up) {
         if (up.isEmpty()) {
             System.out.println(p);
@@ -32,6 +35,10 @@ public class SubSeq {
         return left;
     }
 
+
+
+
+    // Type 2
     static void subseqAscii(String p, String up) {
         if (up.isEmpty()) {
             System.out.println(p);
