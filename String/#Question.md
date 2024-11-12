@@ -10,3 +10,9 @@
 9, Write a java program how many word present in the sentence
 10, Vowel present in the String
 11, Digit present in String
+12, count the alphabet
+13, Reverse the given String
+14, String is pangram or not
+15, String is anagram or not
+16, Frequency of each character in the given String
+17, print how many uppercase and lowercase and special character, digit present in the string
