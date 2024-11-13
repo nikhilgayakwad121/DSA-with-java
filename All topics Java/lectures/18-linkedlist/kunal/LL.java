@@ -1,6 +1,6 @@
-package com.kunal;
+package kunal;
 
-public class LL {
+public class  LL {
 
     private Node head;
     private Node tail;
@@ -149,6 +149,16 @@ public class LL {
             this.next = next;
         }
     }
+
+
+
+
+
+
+
+
+
+
 
     // https://leetcode.com/problems/remove-duplicates-from-sorted-list
     public void duplicates() {

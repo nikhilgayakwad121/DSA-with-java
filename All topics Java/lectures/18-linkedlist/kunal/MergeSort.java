@@ -1,4 +1,4 @@
-package com.kunal;
+package kunal;
 
 public class MergeSort {
 
