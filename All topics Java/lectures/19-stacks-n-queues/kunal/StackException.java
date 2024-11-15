@@ -1,6 +1,6 @@
-package com.kunal;
+package kunal;
 
-public class StackException extends Exception{
+public class   StackException extends Exception{
 
     public StackException(String message) {
         super(message);

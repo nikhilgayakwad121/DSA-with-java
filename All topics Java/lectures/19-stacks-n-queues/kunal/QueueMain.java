@@ -1,4 +1,4 @@
-package com.kunal;
+package kunal;
 
 public class QueueMain {
     public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-package com.kunal;
+package kunal;
 
 public class StackMain {
     public static void main(String[] args) throws StackException {
