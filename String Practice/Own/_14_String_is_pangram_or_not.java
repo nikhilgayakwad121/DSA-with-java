@@ -1,3 +1,5 @@
+package Own;
+
 public class _14_String_is_pangram_or_not {
     public static void main(String[] args) {
         String str = "My name is nikhil ";

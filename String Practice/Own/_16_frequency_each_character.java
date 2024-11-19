@@ -1,3 +1,5 @@
+package Own;
+
 public class _16_frequency_each_character {
     public static void main(String[] args) {
         String str=  "Nikhil Gayakwad";

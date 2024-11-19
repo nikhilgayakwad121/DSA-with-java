@@ -1,3 +1,5 @@
+package Own;
+
 public class _12_CountAlphabet {
 
     public static void main(String[] args) {

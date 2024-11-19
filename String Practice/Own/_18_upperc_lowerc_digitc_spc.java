@@ -1,3 +1,5 @@
+package Own;
+
 public class _18_upperc_lowerc_digitc_spc {
     public static void main(String[] args) {
 

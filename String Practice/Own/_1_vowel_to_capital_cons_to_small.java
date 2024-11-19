@@ -1,3 +1,5 @@
+package Own;
+
 import java.util.Scanner;
 
 public class _1_vowel_to_capital_cons_to_small {

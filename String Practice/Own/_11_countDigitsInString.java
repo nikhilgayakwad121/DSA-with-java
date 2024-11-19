@@ -1,3 +1,5 @@
+package Own;
+
 import java.sql.PreparedStatement;
 
 public class _11_countDigitsInString {

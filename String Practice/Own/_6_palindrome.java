@@ -1,3 +1,5 @@
+package Own;
+
 import java.util.Scanner;
 
 public class _6_palindrome {

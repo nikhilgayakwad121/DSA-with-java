@@ -1,3 +1,5 @@
+package Own;
+
 import java.util.Scanner;
 
 public class _4_SwapEveryWordFirstCharWithLast {

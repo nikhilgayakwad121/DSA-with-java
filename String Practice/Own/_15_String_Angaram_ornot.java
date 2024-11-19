@@ -1,3 +1,5 @@
+package Own;
+
 public class _15_String_Angaram_ornot {
     public static void main(String[] args) {
         String str1 = "keep";
