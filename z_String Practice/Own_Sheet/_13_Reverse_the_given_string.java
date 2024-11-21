@@ -6,7 +6,7 @@ public class _13_Reverse_the_given_string {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String  str = "madarchod";
+        String  str = "nikhil";
         String newstr= revString(str);
         System.out.println(newstr);
     }

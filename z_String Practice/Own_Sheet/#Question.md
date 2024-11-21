@@ -18,3 +18,5 @@
 17, print how many uppercase and lowercase and special character, digit present in the string
 18, Print the number in terms of word
 19, Number of days between two dates
+20, 5 names print name with highest length
+21, take the names and print the smallest one
