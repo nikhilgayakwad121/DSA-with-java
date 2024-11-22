@@ -1,6 +1,7 @@
-package Step1_learn_the_basics.Lecture_4_know_basic_maths;
+package Own_Sheet;
 
-public class palindrome_no_or_not {
+
+public class _6_palindrome_or_not {
     static String palindrome(int n){
         int Ncopy= n;
         int revnum =0;
@@ -21,5 +22,3 @@ public class palindrome_no_or_not {
         System.out.println(Ans);
     }
 }
-
-
