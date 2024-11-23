@@ -1,6 +1,6 @@
 package Own_Sheet;
 
-public class _21_smallestname {
+public class _20_smallestname {
     public static void main(String[] args) {
         String[] arr = {"nikhil", "nik", "vinay", "om"};
         String smallName = checkSmallName(arr);

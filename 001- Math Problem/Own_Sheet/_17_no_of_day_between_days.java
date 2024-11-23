@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.time.DayOfWeek;
 
-public class _19_no_of_day_between_days {
+public class _17_no_of_day_between_days {
     public static void main(String[] args) {
         // Input dates
         int d1 = 17;
