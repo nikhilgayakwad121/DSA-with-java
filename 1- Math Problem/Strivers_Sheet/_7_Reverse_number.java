@@ -1,6 +1,6 @@
 package Strivers_Sheet;
 
-public class Reverse_number {
+public class _7_Reverse_number {
 
     static int reverseNumber(int n){
         int revnum = 0;

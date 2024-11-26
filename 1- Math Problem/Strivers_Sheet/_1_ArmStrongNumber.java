@@ -1,6 +1,6 @@
 package Strivers_Sheet;
 
-class ArmStrongNumber
+class _1_ArmStrongNumber
 {
     public static void main(String[] args)
     {

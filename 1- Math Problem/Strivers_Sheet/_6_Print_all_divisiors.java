@@ -2,7 +2,7 @@ package Strivers_Sheet;
 
 import java.util.ArrayList;
 
-public class Print_all_divisiors {
+class Print_all_divisiors {
     public static int[] printDivisors(int n, int[] size) {
         // Allocate memory for
         // the array of divisors

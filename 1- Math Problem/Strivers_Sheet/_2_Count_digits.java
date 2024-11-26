@@ -2,7 +2,7 @@ package Strivers_Sheet;
 
 import java.util.Scanner;
 
-public class Count_digits {
+public class _2_Count_digits {
     static int countDigit(int n)
     {
         int count = 0;

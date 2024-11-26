@@ -1,7 +1,5 @@
 package Strivers_Sheet;
 
-import java.util.*;
-
 class brute_force_GCD_or_HCF {
     public static int findGcd(int n1, int n2) {
         // Initialize gcd to 1

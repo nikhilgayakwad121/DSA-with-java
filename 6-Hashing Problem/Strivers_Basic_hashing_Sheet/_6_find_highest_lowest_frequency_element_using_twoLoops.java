@@ -1,0 +1,4 @@
+package Strivers_Basic_hashing_Sheet;
+
+public class _6_find_highest_lowest_frequency_element_using_twoLoops {
+}

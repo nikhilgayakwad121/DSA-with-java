@@ -1,7 +1,7 @@
 package Strivers_Sheet;
 
 
-    public class palindrome_or_not {
+    public class _4_palindrome_or_not {
         static String palindrome(int n){
             int Ncopy= n;
             int revnum =0;
