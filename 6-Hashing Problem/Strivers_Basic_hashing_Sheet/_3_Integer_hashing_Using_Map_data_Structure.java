@@ -25,17 +25,15 @@ public class _3_Integer_hashing_Using_Map_data_Structure {
         }
 
 
-        // Integer hashing using HashMap
+        //precompute:
         Map<Integer, Integer> integerFrequency = new HashMap<>();
-        // Count the frequency of each integer
         for (int i = 0; i < n;i++) {
            int key = arr[i];
            int freq = 0;
-           if(integerFrequency.containsKey(key))
-               freq = integerFrequency.get(key);
+           if(integerFrequency.containsKey(key))  freq = integerFrequency.get(key);  // fetching from the map
                 freq++;
 
-                integerFrequency.put(key, freq);
+                integerFrequency.put(key, freq);  // inserting into the map
         }
 
 
@@ -44,8 +42,8 @@ public class _3_Integer_hashing_Using_Map_data_Structure {
         for (Map.Entry<Integer, Integer> entry : integerFrequency.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
-        
-        
+
+        System.out.println("Enter how many time we want to check for a integer frequency");
         int query;
         query = sc.nextInt();
         while(query--> 0){

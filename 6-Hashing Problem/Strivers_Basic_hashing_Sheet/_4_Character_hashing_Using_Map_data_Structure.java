@@ -22,13 +22,17 @@ public class _4_Character_hashing_Using_Map_data_Structure {
             arr[i] = sc.nextLine().charAt(0); // Read one character at a time
         }
 
-        // Character hashing using HashMap
-        Map<Character, Integer> charFrequency = new HashMap<>();
-        // Count the frequency of each character
-        for (char c : arr) {
-            charFrequency.put(c, charFrequency.getOrDefault(c, 0) + 1);
-        }
 
+        //precompute:
+        Map<Character, Integer> charFrequency = new HashMap<>();
+        for (int i = 0; i < n;i++) {
+            char key = arr[i];
+            int freq = 0;
+            if(charFrequency.containsKey(key))  freq = charFrequency.get(key);  // fetching from the map
+            freq++;
+
+            charFrequency.put(key, freq);  // inserting into the map
+        }
 
 
 
@@ -39,12 +43,12 @@ public class _4_Character_hashing_Using_Map_data_Structure {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
-
+        System.out.println("Enter how many time we want to check for a characters frequency");
         int query;
         query = sc.nextInt();
         while (query-- > 0) {
-            int character;
-            character = sc.nextLine().charAt(0);
+            char character;
+            character = sc.next().charAt(0);
 
             //fetching
             if (charFrequency.containsKey(character))
