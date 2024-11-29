@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+
+
+//Taking minimum at the front
+// 0(n^2)
 public class _1_Selection_Sort {
 
     public static void main(String[] args) {
