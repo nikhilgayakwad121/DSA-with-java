@@ -1,2 +1,53 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class _7_Quick_Sort {
+
+    // Pick a pivot and places it in its correct place in the sorted Array
+    // Smaller in the left, greater on the right
+
+    public static void main(String args[]) {
+        List<Integer> arr = new ArrayList<>();
+        arr = Arrays.asList(new Integer[] {4, 6, 2, 5, 7, 9, 1, 3});
+        int n = arr.size();
+        System.out.println("Before Using insertion Sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+        arr = quickSort(arr);
+        System.out.println("After insertion sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+    }
+
+    private static List<Integer> quickSort(List<Integer> arr) {
+
+        qs(arr, 0, arr.size() - 1);
+        return arr;
+    }
+
+    private static void qs(List<Integer> arr, int low, int high) {
+
+        if(low< high) {
+            int pIndex = partition(arr, low, high);
+            qs(arr,low, pIndex - 1);
+            qs(arr, pIndex+1, high);
+        }
+    }
+
+    private static int partition(List<Integer> arr, int low, int high) {
+
+        int pivot = arr.get(low);
+        int i = low;
+        int j = high;
+
+        while(i<j){
+
+        }
+
+    }
 }
