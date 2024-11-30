@@ -26,8 +26,6 @@ public class _2_Second_largest_smallest_in_Array {
 //Space Complexity: O(1)
 }
 
-
-
 class Better_solution{
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
@@ -71,11 +69,23 @@ class Optimal_Solution{
         int n = arr.length;
         int sL = secondLargest(arr, n);
         int sS = secondSmallest(arr, n);
-        System.out.println("Second Smallest is "+sL);
-        System.out.println("Second largest is"+sS);
+        System.out.println("Second Smallest is "+sS);
+        System.out.println("Second largest is " +sL);
     }
 
     private static int secondSmallest(int[] arr, int n) {
+        if(n<2) return -1;
+        int small = Integer.MAX_VALUE;
+        int secondSmall= Integer.MAX_VALUE;
+        for (int i = 0; i < n; i++) {
+            if(arr[i]<small){
+                small = arr[i];
+            }
+           else if(arr[i]<secondSmall && arr[i]!=small){
+               secondSmall = arr[i];
+            }
+        }
+        return secondSmall;
     }
 
     private static int secondLargest(int[] arr, int n) {
