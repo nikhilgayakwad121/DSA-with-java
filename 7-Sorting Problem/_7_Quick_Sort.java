@@ -46,8 +46,24 @@ public class _7_Quick_Sort {
         int j = high;
 
         while(i<j){
+            while(arr.get(i) <= pivot && i <= high-1){
+                i++;
+            }
+            while(arr.get(j) > pivot && j>= low+1){
+                j--;
+            }
 
+            if (i < j) {
+                int temp = arr.get(i);
+                arr.set(i, arr.get(j));
+                arr.set(j, temp);
+            }
         }
+        int temp = arr.get(low);
+        arr.set(low, arr.get(j));
+        arr.set(j, temp);
+        return j;
+
 
     }
 }
