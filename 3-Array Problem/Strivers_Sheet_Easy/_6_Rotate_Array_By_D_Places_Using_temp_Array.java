@@ -26,7 +26,6 @@ public class _6_Rotate_Array_By_D_Places_Using_temp_Array {
             temp[i - n + d] = arr[i];
         }
 
-        //
         for (int i = n - d - 1; i >= 0; i--) {
             arr[i + d] = arr[i];
         }
