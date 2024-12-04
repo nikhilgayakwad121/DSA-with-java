@@ -26,10 +26,10 @@ public class _1_Selection_Sort {
         for (int i = 0; i < n- 1 ; i++) {
             int mini = i;
             for (int j = i +1 ; j < n; j++) {
-                if(arr[j] < arr[mini]){
+                if(arr[j] < arr[mini])
+                {
                     mini = j;
                 }
-
             }
 
             int temp = arr[mini];

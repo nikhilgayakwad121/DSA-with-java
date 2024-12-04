@@ -40,7 +40,6 @@ public class _7_Quick_Sort {
     }
 
     private static int partition(List<Integer> arr, int low, int high) {
-
         int pivot = arr.get(low);
         int i = low;
         int j = high;
@@ -63,7 +62,5 @@ public class _7_Quick_Sort {
         arr.set(low, arr.get(j));
         arr.set(j, temp);
         return j;
-
-
     }
 }

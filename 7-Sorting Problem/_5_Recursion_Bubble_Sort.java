@@ -14,7 +14,6 @@ public class _5_Recursion_Bubble_Sort {
     }
 
     private static void recursive_Bubble(int[] arr, int n) {
-
         //base case
         if(n==1){
             return;
@@ -28,12 +27,10 @@ public class _5_Recursion_Bubble_Sort {
                 didSwap =1;
             }
         }
-
         //if no swapping happens.
         if(didSwap==1){
             return;
         }
-
         //Range reduced after recursion:
         recursive_Bubble(arr,n-1 );
     }
