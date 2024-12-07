@@ -1,13 +1,10 @@
+package comparable;
+
 //Java Program to demonstrate the use of Java Comparable.
 //Creating a class which implements Comparable Interface
 import java.util.*;
 
-class Comparable1{
-    //demo class
-}
-
-
-class Student implements Comparable<Student>{
+class Student implements Comparable<Student> {
     int rollno;
     String name;
     int age;
@@ -26,7 +23,6 @@ class Student implements Comparable<Student>{
             return -1;
     }
 }
-
 //Creating a test class to sort the elements
 class TestSort3{
     public static void main(String args[]){
