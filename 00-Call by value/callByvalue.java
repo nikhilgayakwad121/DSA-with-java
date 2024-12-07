@@ -23,7 +23,6 @@ class PassByValueObjectExample {
         modifyObject(person);
         System.out.println(person.getName()); // Output: Bob
     }
-
     public static void modifyObject(Person p) {
         p.setName("Bob"); // Modifies the object that both references point to
     }
