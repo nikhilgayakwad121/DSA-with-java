@@ -1,4 +1,8 @@
-package Step1_learn_the_basics.Lecture_1_Thing_to_know;
+
+192303
+        11923032933494192303
+
+        package Step1_learn_the_basics.Lecture_1_Thing_to_know;
 
 public class Strings {
     String strivers= "No article ";

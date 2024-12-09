@@ -26,8 +26,20 @@ public class Basic_Input_and_Output_in_Java {
     }
 
     public static void main(String[] args) throws IOException {
-        UsingScanner();
-        UsingBufferedReader();
+ //       UsingScanner();
+   //     UsingBufferedReader();
+        System.out.println("User Entering value by using UsingBufferedReader");
+        InputStreamReader is = new InputStreamReader(System.in);
+        BufferedReader bf = new BufferedReader(is);
+        String input = bf.readLine();
+        int num = Integer.parseInt(input);
+        System.out.println("User Entered value by using the BufferReader is = "+ num);
+
+
+        byte[] db = new byte[2];
+        int[] a= {1,2,3,4};
+
+
     }
 
 
