@@ -27,7 +27,8 @@ public class _1_Largest_Element_in_the_Array_Brute_force {
 }
 
 
-class _1_Largest_Element_in_the_Array_{
+class
+_1_Largest_Element_in_the_Array_{
 
     public static void main(String[] args) {
 

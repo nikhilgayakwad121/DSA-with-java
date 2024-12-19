@@ -7,25 +7,24 @@ public class pattern12 {
         //initial space
         int space = 2*(n-1);
 
+            //no of rows
+            for (int i = 1; i <=n; i++) {
+                // print number
+                for (int j = 1 ; j <=i ; j++) {
+                    System.out.print(j);
+                }
 
-        //no of rows
-        for (int i = 1; i <=n; i++) {
-            // print number
-            for (int j = 1 ; j <=i ; j++) {
-                System.out.print(j);
-            }
+                //print space
+                for (int j = 1; j <= space; j++) {
+                    System.out.print(" ");
+                }
 
-            //print space
-            for (int j = 1; j <= space; j++) {
-                System.out.print(" ");
+                //print no.
+                for (int j = i; j>=1; j--) {
+                    System.out.print(j);
+                }
+                System.out.println();
+                space -=2;
             }
-
-            //print no.
-            for (int j = i; j>=1; j--) {
-                System.out.print(j);
-            }
-            System.out.println();
-            space -=2;
-        }
     }
 }

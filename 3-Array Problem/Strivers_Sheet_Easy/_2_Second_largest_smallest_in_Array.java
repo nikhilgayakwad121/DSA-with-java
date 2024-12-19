@@ -64,6 +64,8 @@ class Better_solution{
 }
 
 class Optimal_Solution{
+
+
     public static void main(String[] args) {
         int[] arr = {1,2,4,7,7,5};
         int n = arr.length;

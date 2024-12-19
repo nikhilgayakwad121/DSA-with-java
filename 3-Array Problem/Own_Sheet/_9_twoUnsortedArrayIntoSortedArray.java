@@ -2,7 +2,7 @@ package Own_Sheet;
 
 import java.util.Arrays;
 
-public class _9_twoUnsortedArrayIntoSortedArray {
+public class  _9_twoUnsortedArrayIntoSortedArray {
 
     public static void main(String[] args) {
         int[] arr1 = {5, 2, 9, 1, 6};

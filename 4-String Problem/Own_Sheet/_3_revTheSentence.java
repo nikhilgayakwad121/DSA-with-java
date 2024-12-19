@@ -16,6 +16,7 @@ public class _3_revTheSentence {
         char ch[] = str.toCharArray();
         String rev= " ";
         for(int i=ch.length-1; i>=0 ; i--){
+
             int last = i;
             while(i>=0 && ch[i]!= ' '){
                 i--;

@@ -2,7 +2,9 @@ package Own_Sheet;
 
 import java.util.Scanner;
 
-public class _4_SwapEveryWordFirstCharWithLast {
+public class
+
+_4_SwapEveryWordFirstCharWithLast {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

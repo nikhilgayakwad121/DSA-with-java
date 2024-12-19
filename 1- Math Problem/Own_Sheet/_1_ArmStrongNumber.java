@@ -16,7 +16,7 @@ class _1_ArmStrongNumber
         {
             int ld= n%10;
             sum =  sum + ( ld* ld * ld );
-//          sum =  sum + pow(ld, Funcdigitcounts)   This is to calculate n random number
+//         sum =  sum + pow(ld, Funcdigitcounts)   //This is to calculate n random number
             n = n/10;
         }
         if(temp==sum)

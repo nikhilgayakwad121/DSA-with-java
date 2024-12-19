@@ -15,14 +15,14 @@ public class _7_ConvertEveryWordLastCharintoCapitalreminingIntoSmall {
     }
 
     private static String resMethod(String str) {
-
+        str = str.toLowerCase();
         char[] ch = str.toCharArray();
 
         for (int i = 0; i < ch.length; i++) {
-            // Convert all characters of the word to lowercase first
-            if (ch[i] >= 'A' && ch[i] <= 'Z') {
-                ch[i] = (char)(ch[i] + 32);  // Convert uppercase to lowercase
-            }
+//            // Convert all characters of the word to lowercase first
+//            if (ch[i] >= 'A' && ch[i] <= 'Z') {
+//                ch[i] = (char)(ch[i] + 32);  // Convert uppercase to lowercase
+//            }
             // Check for end of word or the last character
             if ((i == ch.length - 1 || ch[i + 1] == ' ') && ch[i] != ' ') {
                 if (ch[i] >= 'a' && ch[i] <= 'z') {
