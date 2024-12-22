@@ -1,9 +1,12 @@
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Divisors {
 
     // Function to find and print divisors of a number
     public static void findDivisors(int n) {
+
         System.out.print("Divisors of " + n + " are: ");
         int count = 0;
         // Loop to find all divisors from 1 to n
@@ -18,6 +21,8 @@ public class Divisors {
     }
 
     public static void main(String[] args) {
+        Set<String> set = new TreeSet();
+
         // Scanner for user input
         Scanner scanner = new Scanner(System.in);
 

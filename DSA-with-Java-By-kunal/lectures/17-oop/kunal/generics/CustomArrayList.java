@@ -1,5 +1,4 @@
 package com.kunal.generics;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -59,6 +58,7 @@ public class CustomArrayList {
                 '}';
     }
 
+
     public static void main(String[] args) {
 //        ArrayList list = new ArrayList();
         CustomArrayList list = new CustomArrayList();
@@ -69,9 +69,7 @@ public class CustomArrayList {
         for (int i = 0; i < 14; i++) {
             list.add(2 * i);
         }
-
         System.out.println(list);
-
         ArrayList<Integer> list2 = new ArrayList<>();
 //        list2.add("dfghj");
     }

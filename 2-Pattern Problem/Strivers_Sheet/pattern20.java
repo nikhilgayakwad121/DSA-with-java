@@ -17,7 +17,7 @@ public class pattern20 {
                 if(i>n)
                     stars = 2*n - i;
 
-                //for printing the stars
+                //stars
                 for(int j =1;j<=stars ;j++){
                     System.out.print("*");
                 }

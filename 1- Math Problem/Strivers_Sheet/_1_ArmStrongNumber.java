@@ -12,11 +12,11 @@ class _1_ArmStrongNumber
     static String armStrong(int n) {
         int temp = n;
         int sum=0;
+        int countDigits = String.valueOf(n).length();
         while(n>0)
         {
             int ld= n%10;
-            sum =  sum + ( ld* ld * ld );
-//          sum =  sum + pow(ld, Funcdigitcounts)   This is to calculate n random number
+            sum += Math.pow(ld, countDigits);
             n = n/10;
         }
         if(temp==sum)
