@@ -1,7 +1,6 @@
 package Strivers_Basic_Recursion_Sheet;
-
-
 //Iterative way
+
 class Iterative_way {
     public static void main(String[] args) {
         int n = 5;
