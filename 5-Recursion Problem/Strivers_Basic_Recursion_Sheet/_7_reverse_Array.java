@@ -28,6 +28,7 @@ class Using_space_optimized{
         int[] arr = {1,2,3,4,5,6,7,8,9,0};
         int n = arr.length;
         By_spaceOptimized(arr, n);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void By_spaceOptimized(int[] arr, int n) {
@@ -40,7 +41,7 @@ class Using_space_optimized{
             first++;
             last--;
         }
-        System.out.println(Arrays.toString(arr));
+
     }
 
 
