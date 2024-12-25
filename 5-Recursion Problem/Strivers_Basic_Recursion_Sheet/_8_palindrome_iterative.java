@@ -14,7 +14,7 @@ public class _8_palindrome_iterative {
         while(left<right){
             char l = str.charAt(left) ,r =  str.charAt(right);
 
-            if(!Character.isLetterOrDigit(l))
+            if(!Character.isLetterOrDigit(l))  // will execute when the character is not a letter or digit.
                 left++;
 
             else if (!Character.isLetterOrDigit(r))

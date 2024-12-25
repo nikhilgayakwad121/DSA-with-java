@@ -81,7 +81,7 @@ class Using_LibraryFunction{
     }
     public static void main(String[] args) {
         int n = 5;
-        Integer arr[] = {5,4,3,2,1};
+        Integer[] arr = {5,4,3,2,1};
         reverseArray(arr);
         printArray(arr, n);
     }
