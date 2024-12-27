@@ -17,9 +17,10 @@ public class _9_fibonacci_naive {
 
             System.out.println("The fibonacci series up to "+ n + " th term :");
 
-            for (int i = 0; i <= n; i++) {
 
-            }for (int i = 0; i <= n; i++) {
+
+
+            for (int i = 0; i <= n; i++) {
                 System.out.print(fib[i] + " ");
             }
         }
@@ -62,7 +63,7 @@ class By_recursion_{
     }
 
     public static void main(String[] args) {
-        int n =5;
+        int n =4;
         System.out.println(fibonacci(n));
     }
 }
