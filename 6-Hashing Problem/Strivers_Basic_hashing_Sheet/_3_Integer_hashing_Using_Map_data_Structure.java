@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class _3_Integer_hashing_Using_Map_data_Structure {
+public class
+
+_3_Integer_hashing_Using_Map_data_Structure {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

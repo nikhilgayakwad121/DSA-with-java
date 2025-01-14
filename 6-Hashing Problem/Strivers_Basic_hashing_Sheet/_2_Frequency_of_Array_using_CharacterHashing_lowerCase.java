@@ -58,7 +58,9 @@ class _2_Frequency_of_Array_using_CharacterHashing_upperCase{
 
 //if the String contains lowerCase or upper Case
 
-class _2_Frequency_of_Array_using_CharacterHashing_UpperOrLower{
+class
+
+_2_Frequency_of_Array_using_CharacterHashing_UpperOrLower{
     public static void main(String[] args) {
         System.out.println("Enter String");
         Scanner sc = new Scanner(System.in);

@@ -34,9 +34,6 @@ public class _4_Character_hashing_Using_Map_data_Structure {
             charFrequency.put(key, freq);  // inserting into the map
         }
 
-
-
-
         // Output: character frequencies
         System.out.println("Character frequencies:");
         for (Map.Entry<Character, Integer> entry : charFrequency.entrySet()) {
