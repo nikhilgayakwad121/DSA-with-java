@@ -56,6 +56,8 @@ class _5_Count_frequency_each_element_in_array_Using_MAp{
             }
         }
 
+
+
         // Traverse through map and print frequencies
         for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
 

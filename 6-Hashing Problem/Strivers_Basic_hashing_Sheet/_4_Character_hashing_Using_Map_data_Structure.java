@@ -49,6 +49,8 @@ public class _4_Character_hashing_Using_Map_data_Structure {
 
             //fetching
             if (charFrequency.containsKey(character))
+
+
                 System.out.println(charFrequency.get(character));
             else
                 System.out.println("0");
