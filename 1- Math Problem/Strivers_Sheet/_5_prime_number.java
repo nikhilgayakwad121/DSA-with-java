@@ -13,6 +13,7 @@ class optimal_prime_number {
         int count = 0;
         int Sqrt = (int) (Math.sqrt(n));
         for (int i = 1; i <= Sqrt; i++) {
+
             if (n % i == 0) {
                 count = count + 1;
                 if (i != n / i)
