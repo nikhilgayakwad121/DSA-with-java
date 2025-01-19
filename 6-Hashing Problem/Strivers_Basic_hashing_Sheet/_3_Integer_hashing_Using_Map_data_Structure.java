@@ -32,7 +32,8 @@ _3_Integer_hashing_Using_Map_data_Structure {
         for (int i = 0; i < n;i++) {
            int key = arr[i];
            int freq = 0;
-           if(integerFrequency.containsKey(key))  freq = integerFrequency.get(key);  // fetching from the map
+           if(integerFrequency.containsKey(key))
+               freq = integerFrequency.get(key);  // fetching from the map
                 freq++;
 
                 integerFrequency.put(key, freq);  // inserting into the map

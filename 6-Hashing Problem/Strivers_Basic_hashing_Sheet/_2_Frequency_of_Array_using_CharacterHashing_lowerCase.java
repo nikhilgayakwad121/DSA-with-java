@@ -31,7 +31,6 @@ public class _2_Frequency_of_Array_using_CharacterHashing_lowerCase {
 
 
 ///if the String contains in upperCase
-
 class _2_Frequency_of_Array_using_CharacterHashing_upperCase{
     public static void main(String[] args) {
         System.out.println("Enter String");
@@ -57,10 +56,7 @@ class _2_Frequency_of_Array_using_CharacterHashing_upperCase{
 
 
 //if the String contains lowerCase or upper Case
-
-class
-
-_2_Frequency_of_Array_using_CharacterHashing_UpperOrLower{
+class  _2_Frequency_of_Array_using_CharacterHashing_UpperOrLower{
     public static void main(String[] args) {
         System.out.println("Enter String");
         Scanner sc = new Scanner(System.in);
@@ -75,10 +71,11 @@ _2_Frequency_of_Array_using_CharacterHashing_UpperOrLower{
 
         int q = sc.nextInt();
         while(q-- >0){
-            char ch = sc.next().charAt(0);;
+            char ch = sc.next().charAt(0);
 
             //fetching
             System.out.println(hash[ch]);
+
         }
 
     }

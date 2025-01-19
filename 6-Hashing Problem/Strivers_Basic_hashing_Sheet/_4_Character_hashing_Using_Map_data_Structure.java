@@ -17,6 +17,7 @@ public class _4_Character_hashing_Using_Map_data_Structure {
         char[] arr = new char[n];
         System.out.println("Enter the characters one by one:");
 
+
         // Input: characters in the array
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextLine().charAt(0); // Read one character at a time
