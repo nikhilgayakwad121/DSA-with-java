@@ -5,7 +5,7 @@ import java.util.List;
 public class  _7_Quick_Sort {
 
     // Pick a pivot and places it in its correct place in the sorted Array
-    // Smaller in the left, greater on the right
+    // Smaller in the left, greater on the right  side
 
     public static void main(String args[]) {
         List<Integer> arr = new ArrayList<>();
