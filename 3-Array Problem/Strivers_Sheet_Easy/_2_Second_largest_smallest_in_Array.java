@@ -2,7 +2,7 @@ package Strivers_Sheet_Easy;
 import java.util.Arrays;
 
 //(Brute Force) [this approach only works if there are no duplicates]
-public class _2_Second_largest_smallest_in_Array {
+class _2_Second_largest_smallest_in_Array {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 6, 7, 5};
@@ -111,3 +111,6 @@ class Optimal_Solution{
         return second_large;
     }
 }
+
+
+
