@@ -112,5 +112,3 @@ class Optimal_Solution{
     }
 }
 
-
-
